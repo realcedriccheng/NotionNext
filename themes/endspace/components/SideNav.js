@@ -41,12 +41,12 @@ import LinkedinBoxFillIcon from 'remixicon-react/LinkedinBoxFillIcon'
 import WechatFillIcon from 'remixicon-react/WechatFillIcon'
 import GlobeFillIcon from 'remixicon-react/GlobeFillIcon'
 import MailFillIcon from 'remixicon-react/MailFillIcon'
-import UserFill from 'remixicon-react/UserFill'
+import UserFillIcon from 'remixicon-react/UserFillIcon'
 
 // Icon mapping (Conceptual Remix Icons)
 const IconComponents = {
   'Home': AppsFillIcon,
-  'About': UserFill,
+  'About': UserFillIcon,
   'Category': FolderFillIcon,
   'Tag': BarcodeFillIcon,
   'Archive': StackFillIcon,
