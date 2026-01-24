@@ -46,7 +46,7 @@ import RiUserFill from 'remixicon-react/RiUserFill'
 // Icon mapping (Conceptual Remix Icons)
 const IconComponents = {
   'Home': AppsFillIcon,
-  'About': 
+  'About': RiUserFill,
   'Category': FolderFillIcon,
   'Tag': BarcodeFillIcon,
   'Archive': StackFillIcon,
