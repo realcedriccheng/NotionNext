@@ -78,13 +78,13 @@ export const MobileNav = (props) => {
 
   // All navigation items
   const menuItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Category', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
-    { name: 'Tag', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
-    { name: 'Archive', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
-    { name: 'Portfolio', path: '/portfolio' },
-    { name: 'Friends', path: '/friend' },
-    { name: 'Search', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
+    { name: '主页', path: '/' },
+    { name: '分类', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
+    { name: '标签', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
+    { name: '归档', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
+    { name: '喜欢', path: '/like' },
+    // { name: 'Friends', path: '/friend' },
+    { name: '搜索', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
   ].filter(item => item.show !== false)
 
   // Social icon config - using contact.config.js settings
