@@ -46,7 +46,7 @@ const CONFIG = {
   ENDSPACE_LOADING_TEXT_FADEOUT: 'ENTERING', // 淡出阶段显示的文字
   
   // 加载动画中的图片，可以使用public目录下的图片如'/images/logo.png'，也可以使用url如https://example.com/image.png
-  ENDSPACE_LOADING_IMAGE: '/svg/loader-circle-64px.svg', // 加载动画中显示的图片
+  ENDSPACE_LOADING_IMAGE: '/images/orange_15164267.png', // 加载动画中显示的图片
 
   // ============================================
   // 水印文字配置 (Watermark Text)
