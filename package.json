@@ -54,7 +54,7 @@
     "@next/bundle-analyzer": "^12.3.7",
     "@vercel/analytics": "^1.5.0",
     "@tabler/icons-react": "^3.36.1",
-    "@remixicon/react": "4.8.0",
+    "@remixicon/react": "^4.8.0",
     "algoliasearch": "^4.25.2",
     "axios": "^1.7.2",
     "critters": "^0.0.23",
