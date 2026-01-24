@@ -82,6 +82,7 @@ export const SideNav = (props) => {
   // All navigation items
   const menuItems = [
     { name: 'Home', path: '/' },
+    { name: 'About', path: '/aboutme', show: siteConfig('ENDSPACE_MENU_ABOUT', null, CONFIG) },
     { name: 'Category', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
     { name: 'Tag', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
     { name: 'Archive', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },

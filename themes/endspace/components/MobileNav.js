@@ -78,7 +78,7 @@ export const MobileNav = (props) => {
 
   // All navigation items
   const menuItems = [
-    { name: '关于', path: '/aboutme' },
+    { name: '关于', path: '/aboutme', show: siteConfig('ENDSPACE_MENU_ABOUT', null, CONFIG)  },
     { name: '分类', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
     { name: '标签', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
     { name: '归档', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },

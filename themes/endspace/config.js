@@ -60,6 +60,7 @@ const CONFIG = {
   // 菜单配置 (Menu)
   // ============================================
   ENDSPACE_MENU_CATEGORY: true, // 显示分类菜单
+  ENDSPACE_MENU_ABOUT: true,
   ENDSPACE_MENU_TAG: true, // 显示标签菜单
   ENDSPACE_MENU_ARCHIVE: true, // 显示归档菜单
   ENDSPACE_MENU_SEARCH: true, // 显示搜索菜单
