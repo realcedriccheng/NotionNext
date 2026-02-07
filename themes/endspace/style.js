@@ -22,14 +22,14 @@ export const Style = () => {
         --endspace-text-muted: #a1a1aa;
         
         /* Accents (Subtle Industrialism) -> Converted to Yellow Suite */
-        --endspace-accent-yellow: #FBFB45;
+        --endspace-accent-yellow: #fb9445;
         --endspace-accent-yellow-dim: rgba(251, 251, 69, 0.15);
-        --endspace-accent-cyan: #FBFB45; /* OVERRIDE: Cyan usage -> Yellow 500 */
+        --endspace-accent-cyan: #fb9445; /* OVERRIDE: Cyan usage -> Yellow 500 */
         --endspace-accent-cyan-dim: rgba(251, 251, 69, 0.1); /* OVERRIDE: Cyan dim -> Yellow dim */
         
         /* Borders & Lines */
         --endspace-border-base: #e4e4e7;
-        --endspace-border-active: #FBFB45; /* Active border -> Yellow */
+        --endspace-border-active: #fb9445; /* Active border -> Yellow */
         --endspace-grid-color: rgba(0,0,0,0.03);
         
         /* Shadows - Enhanced 3D Depth */
@@ -55,13 +55,13 @@ export const Style = () => {
         --endspace-text-secondary: #a1a1aa;
         --endspace-text-muted: #71717a;
         
-        --endspace-accent-yellow: #FBFB45;
+        --endspace-accent-yellow: #fb9445;
         --endspace-accent-yellow-dim: rgba(251, 251, 69, 0.15);
-        --endspace-accent-cyan: #FBFB45; /* Dark Mode: Yellow 600 */
+        --endspace-accent-cyan: #fb9445; /* Dark Mode: Yellow 600 */
         --endspace-accent-cyan-dim: rgba(251, 251, 69, 0.1);
         
         --endspace-border-base: #27272a;
-        --endspace-border-active: #FBFB45;
+        --endspace-border-active: #fb9445;
         --endspace-grid-color: rgba(255,255,255,0.02);
         
         --endspace-shadow-base: 
@@ -591,7 +591,7 @@ export const Style = () => {
       
       .ef-button:hover::before {
         height: 70%;
-        background-color: #FBFB45;
+        background-color: #fb9445;
       }
 
       /* ============================================
@@ -848,7 +848,7 @@ export const Style = () => {
         display: block;
         width: 4px;
         height: 18px;
-        background-color: #FBFB45; /* Yellow */
+        background-color: #fb9445; /* Yellow */
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Rectangle */
       }
@@ -856,7 +856,7 @@ export const Style = () => {
       .ef-btn:hover .ef-btn-indicator {
         width: 12px;
         height: 12px;
-        background-color: #FBFB45;
+        background-color: #fb9445;
         clip-path: polygon(0 0, 100% 50%, 0 100%); /* Triangle */
       }
       
