@@ -54,7 +54,7 @@ const CONFIG = {
   // 首页标题栏背景滚动水印文字（大字循环动画）
   ENDSPACE_BANNER_WATERMARK_TEXT: 'ALOYSIA_CITRIODORA',
   // 文章详情页右上角水印文字
-  ENDSPACE_ARTICLE_WATERMARK_TEXT: 'CITRIODORA WHISPER',
+  ENDSPACE_ARTICLE_WATERMARK_TEXT: 'CITRIO WHISPER',
 
   // ============================================
   // 菜单配置 (Menu)
