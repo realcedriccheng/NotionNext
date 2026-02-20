@@ -83,14 +83,14 @@ export const SideNav = (props) => {
 
   // All navigation items
   const menuItems = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/aboutme', show: siteConfig('ENDSPACE_MENU_ABOUT', null, CONFIG) },
-    { name: 'Category', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
-    { name: 'Tag', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
-    { name: 'Archive', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
-    { name: 'Timeline', path: '/timeline' },
-    { name: 'Friends', path: '/friend' },
-    { name: 'Search', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
+    { name: '主页', path: '/' },
+    { name: '关于', path: '/aboutme', show: siteConfig('ENDSPACE_MENU_ABOUT', null, CONFIG) },
+    { name: '分类', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
+    { name: '标签', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
+    { name: '归档', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
+    { name: '动态', path: '/timeline' },
+    { name: '友链', path: '/friend' },
+    { name: '搜索', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
   ].filter(item => item.show !== false)
 
   // Social icon config - using contact.config.js settings

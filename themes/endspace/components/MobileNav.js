@@ -82,7 +82,7 @@ export const MobileNav = (props) => {
     { name: '分类', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
     { name: '标签', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
     { name: '归档', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
-    { name: '时间线', path: '/timeline' },
+    { name: '动态', path: '/timeline' },
     // { name: 'Friends', path: '/friend' },
     { name: '搜索', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
   ].filter(item => item.show !== false)
