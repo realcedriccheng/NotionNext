@@ -33,7 +33,7 @@ const CONFIG = {
   // ============================================
   // 加载动画 (Loading Animation)
   // ============================================
-  ENDSPACE_LOADING_COVER: true, // 是否显示加载动画
+  ENDSPACE_LOADING_COVER: false, // 是否显示加载动画
   
   // 加载动画显示的站点名称 (右侧竖排大字)
   ENDSPACE_LOADING_SITE_NAME: 'ALOYSIA_CITRIODORA', // 站点名称，显示在加载动画右侧

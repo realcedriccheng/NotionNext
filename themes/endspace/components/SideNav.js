@@ -52,7 +52,7 @@ const IconComponents = {
   'Archive': StackFillIcon,
   'Search': Compass3FillIcon,
   'Friends': EarthFillIcon,
-  'Portfolio': ProfileFillIcon
+  'Timeline': ProfileFillIcon
 }
 
 // Social icon mapping
@@ -88,7 +88,7 @@ export const SideNav = (props) => {
     { name: 'Category', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
     { name: 'Tag', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
     { name: 'Archive', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
-    { name: 'Portfolio', path: '/portfolio' },
+    { name: 'Timeline', path: '/timeline' },
     { name: 'Friends', path: '/friend' },
     { name: 'Search', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
   ].filter(item => item.show !== false)
@@ -139,7 +139,7 @@ export const SideNav = (props) => {
     else if (path.includes('/archive')) newTab = 'Archive'
     else if (path.includes('/search')) newTab = 'Search'
     else if (path.includes('/friend')) newTab = 'Friends'
-    else if (path.includes('/portfolio')) newTab = 'Portfolio'
+    else if (path.includes('/timeline')) newTab = 'Timeline'
     
     setActiveTab(newTab)
   }, [router.asPath])

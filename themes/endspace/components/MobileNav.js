@@ -50,7 +50,7 @@ const IconComponents = {
   'Archive': StackFillIcon,
   'Search': Compass3FillIcon,
   'Friends': EarthFillIcon,
-  'Portfolio': ProfileFillIcon
+  'Timeline': ProfileFillIcon
 }
 
 // Social icon mapping
@@ -82,7 +82,7 @@ export const MobileNav = (props) => {
     { name: '分类', path: '/category', show: siteConfig('ENDSPACE_MENU_CATEGORY', null, CONFIG) },
     { name: '标签', path: '/tag', show: siteConfig('ENDSPACE_MENU_TAG', null, CONFIG) },
     { name: '归档', path: '/archive', show: siteConfig('ENDSPACE_MENU_ARCHIVE', null, CONFIG) },
-    { name: '喜欢', path: '/like' },
+    { name: '时间线', path: '/timeline' },
     // { name: 'Friends', path: '/friend' },
     { name: '搜索', path: '/search', show: siteConfig('ENDSPACE_MENU_SEARCH', null, CONFIG) }
   ].filter(item => item.show !== false)
@@ -113,7 +113,7 @@ export const MobileNav = (props) => {
     else if (path.includes('/archive')) setActiveTab('Archive')
     else if (path.includes('/search')) setActiveTab('Search')
     else if (path.includes('/friend')) setActiveTab('Friends')
-    else if (path.includes('/portfolio')) setActiveTab('Portfolio')
+    else if (path.includes('/timeline')) setActiveTab('Timeline')
   }, [router.asPath])
 
   // Close menu when route changes
